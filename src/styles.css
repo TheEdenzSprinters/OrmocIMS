@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0px;
+}
+
+.nav-background {
+    background-color: #283593;
+    padding-top: 90px;
+    padding-right: 25px;
+   
+}
+
+h1 {
+    -webkit-text-fill-color: #283593;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-inline {
+    width: 220px;
+    margin-left: 20px;
+}
+
+.ng-app {
+    width: 400px;
+}
+
+.ng-binding {
+    -webkit-text-fill-color: #283593;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ims-wrapper{
+    height: 625px;
+}
+
+.content-wrapper{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.header{
+   border-bottom: 2px #283593 solid;
+    height: 90px;
+    padding-top: 40px;  
+}
+
+/* mouse hover */
+
+
+.nav-hover a:hover {
+  background-color: rgb(138, 138, 168);
+  transition-duration: 100ms;
+}
