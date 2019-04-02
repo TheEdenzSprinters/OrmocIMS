@@ -2,63 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>OrmocIMS</title>
+  <title>OrmocLMS</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
-    <script type="text/javascript">
-        var app = angular.module('MyApp', [])
-        app.controller('MyController', function ($scope) {
-            $scope.CurrentDate = new Date();
-        });
-    </script>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 nav-background">
-                <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
-                    <div class="container">
-                        <div class="collapse navbar-collapse"
-                            id="navcol-1">
-                            <ul class="nav navbar-nav nav-hover">
-                                <li role="presentation" class="nav-item"><a href="#" class="nav-link active">CATEGORY MANAGEMENT</a></li>
-                                <br>                                   
-                                <li role="presentation" class="nav-item"><a href="#" class="nav-link">ITEM MANAGEMENT</a></li>
-                                <br>                                  
-                                <li role="presentation" class="nav-item"><a href="#" class="nav-link">P.O. MANAGEMENT</a></li>
-                                <br>                                
-                                <li role="presentation" class="nav-item"><a href="#" class="nav-link">SUPPLIERS MANAGEMENT</a></li>
-                                <br>                                
-                                <li role="presentation" class="nav-item"><a href="#" class="nav-link">ITEM SEARCH</a></li>                                                            
-                            </ul>
-                        </div>
-                    </div>
-                </nav>        
-            </div>
-            <div class="col-sm-9 content-wrapper ims-wrapper">
-              <div class="container-fluid content-wrapper">
-                  <div class="row">
-                      <div class="col-sm-12 header">
-                          <h1>ORMOC LANTERN SUPPLY AND HARDWARE</h1>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-sm-12">
-                          <div ng-app="MyApp" ng-controller="MyController">                            
-                            <span>{{CurrentDate | date:'MMMM dd, yyyy'}}</span>                                                        
-                          </div>
-                      </div>
-                  </div>
-              </div>
-                
-                
-            </div>
-        </div>
-    </div>  
-  <app-root></app-root>
+
+    <app-root></app-root>
 </body>
 </html>
-<!-- test 1234 -->
