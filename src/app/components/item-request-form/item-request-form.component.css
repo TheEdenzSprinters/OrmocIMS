@@ -1,0 +1,35 @@
+.head{
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-color: #283593;
+}
+
+.filters{
+    border-style: solid;
+    border-width: 1px;
+    height: 320px;
+    margin-bottom: 15px;
+    border-color: #283593;    
+}
+.not-fulfilled{
+    border-style: solid;
+    border-width: 1px;
+    height: 155px;
+    margin-bottom: 15px;
+    border-color: #283593;
+}
+
+th{
+    font-size: 10px;
+    text-align: center;
+}
+.table{
+    max-height: none;
+}
+.thead{
+    background: #283593;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-fill-color: white;
+}
