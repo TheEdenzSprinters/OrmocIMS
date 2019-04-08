@@ -1,12 +1,14 @@
 .element-1{
     border-style: solid;
     height: 200px;
+    margin-top: 15px;
     margin-bottom: 15px;
     border-color: #c2c2c2;
-    border-width: 1px;
+    border-width: 2px;
+    background-color: #ffffff
 }
 
-.path{
+    .path{
     color:  #283593;
     padding-left: 15px;
     padding-top: 1%;
@@ -26,5 +28,24 @@ hr{
 }
 
 .background{
-    color: #424040
+    background-color: #ececec;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.details{
+    font-style: italic;
+    font-size: auto;
+    color:  #283593;
+    font-size: 12px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+    background: #283593;
+    border-color: #283593;
+    border-radius: 2px;
 }
