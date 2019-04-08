@@ -1,0 +1,30 @@
+.element-1{
+    border-style: solid;
+    height: 200px;
+    margin-bottom: 15px;
+    border-color: #c2c2c2;
+    border-width: 1px;
+}
+
+.path{
+    color:  #283593;
+    padding-left: 15px;
+    padding-top: 1%;
+    font-size: 12px;
+}
+
+.headline{
+    color:  #283593;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+hr{
+    border-color:  #283593;
+}
+
+.background{
+    color: #424040
+}
