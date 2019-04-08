@@ -1,24 +1,38 @@
 <p class="path">
   Home > <b>Category Management</b>
 </p>
-<div class="container-fluid background">
-  <div class="row">
-    <div class="col-sm-9">
-      <div class="element-1">
-        <h2 class="headline">Main Categories</h2><hr>
-      </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="element-1">
-          <p>Select an item to see complete details</p>
-        </div>
-    </div>
-  </div>
-  <div class="row">
+<div class="container-fluid">
+  <div class="background">
+    <div class="row">
       <div class="col-sm-9">
-          <div class="element-1">
-            <h2 class="headline">Sub-Categories</h2><hr>
+        <div class="element-1">
+          <h2 class="headline">Main Categories</h2><hr>
+            <div class="">
+              %category_list%
+            </div>
+            <div class="">
+              <button type="button" class="btn btn-primary btn-sm">Add New Category</button>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="d-flex element-1 justify-content-center align-items-center details">
+            Select an item to see complete details
           </div>
       </div>
     </div>
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="element-1">
+              <h2 class="headline">Sub-Categories</h2><hr>
+              <div class="">
+                %sub_category_list%
+              </div>
+              <div>
+                <button type="button" class="btn btn-primary btn-sm">Add New %category_name% Sub-Category</button>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
 </div>
