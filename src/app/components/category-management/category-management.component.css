@@ -67,11 +67,10 @@ hr{
 }
 
 .list{
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 10px;
+    padding: 2px 5px 2px 10px;
     margin-left: 10px;
     margin-top: 7px;
+    margin-right: 10px;
     border-style: solid;
     border-color: #7c7c7c;
     border-width: 1px;
@@ -80,12 +79,10 @@ hr{
     font-weight: bold;
     color:  #283593;
     background-color: #ececec;
-    padding-left: 5px;
-    padding-right: 5px;
-    /* background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD5SURBVDhPzZJZagJBEIYbgoKi5gJGryGK3iaL7/Ei4nIClxMo3kWzkOQpJ/BJ/68XZpxF8UHwg4+qGrqbnqo2t6Arl/JP7n1cyI48S0FO5Va+yLos+vgqP+RIPshMJnIlK7ZKw/e15JAUXHsny7YypuRjINQ1+SVTv8M/P7vUHvIte7ZykToc/ibnLo2gUU8utbDpXw58DIcB635dGkG3aVicd3nwMQ7rWH/CNTdoytQNmDOjg0s96MuZSyPo6qes2ip/Co+SdW1bJWC+zDkckoQRbuTQVhnwwsaS6/LyGpKGERkd82dz7ksMcD3mTKPo9o+vW/LuMOYI44cxddmu8LAAAAAASUVORK5CYII="); */
 }
 
 .font-14{
+    padding-left: 5px;
     font-weight: normal;
     font-size: 12px;
 }
